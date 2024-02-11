@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --clr-primary: #0353a4;
+    --clr-primary-accent: #0466c8;
+    --clr-dark: #001233;
+    --clr-secondary: #979dac;
+    --clr-white: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;
