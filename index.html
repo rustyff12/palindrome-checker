@@ -7,21 +7,21 @@
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <h1>Is it a Palindrome?</h1>
-        <div class="pal-container">
-            <label for="text-input"
-                >Enter in text to check for a palindrome:
-            </label>
-            <input class="pal-input" id="text-input" value="" type="text" />
-            <button class="pal-btn" id="check-btn">Check</button>
-            <div class="results-div hidden" id="result"></div>
-        </div>
-        <div class="pal-def-container">
-            <p class="pall-def">
+        <div class="main-container">
+            <h1>Is it a Palindrome?</h1>
+            <div class="input-container">
+                <h4>Enter in text to check for a palindrome:</h4>
+                <div class="input-section">
+                    <input type="text" id="text-input" />
+                    <button id="check-btn">Check</button>
+                </div>
+                <div id="result"></div>
+            </div>
+            <div class="info">
                 A <dfn>palindrome</dfn> is a word or sentence that's spelled the
                 same way both forward and backward, ignoring punctuation, case,
                 and spacing.
-            </p>
+            </div>
         </div>
 
         <script src="./script.js"></script>
